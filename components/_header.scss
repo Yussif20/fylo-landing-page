@@ -1,0 +1,14 @@
+.header {
+  padding: 3.6rem 0;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav {
+  display: flex;
+}
+.header__nav-link {
+  padding: 1.2rem;
+}
