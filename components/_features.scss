@@ -3,3 +3,16 @@
   align-items: center;
   justify-content: center;
 }
+.features__content-text {
+  line-height: 1.5;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.features__content-link {
+  color: var(--moderate-cyan);
+  text-decoration: underline;
+  font-weight: semi-bold;
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 4.6rem;
+}

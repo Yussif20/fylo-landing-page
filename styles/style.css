@@ -48,9 +48,13 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.heading {
+h1,
+h2,
+h3 {
+  font-size: 6.4rem;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
+  margin-bottom: 2.4rem;
 }
 
 .container {
@@ -90,13 +94,6 @@ section {
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
-}
-
-.hero__content-heading {
-  font-size: 6.4rem;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  margin-bottom: 2.2rem;
 }
 
 .hero__content-text {
@@ -161,6 +158,21 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.features__content-text {
+  line-height: 1.5;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.features__content-link {
+  color: var(--moderate-cyan);
+  text-decoration: underline;
+  font-weight: semi-bold;
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 4.6rem;
 }
 
 .contact {
