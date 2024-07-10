@@ -2,7 +2,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--very-dark--blue);
 }
+.features.section-with-bg::before {
+  background-color: #f8f8fe;
+}
+.features::after {
+  position: absolute;
+  top: -10rem;
+  left: -10rem;
+  content: "";
+  background-image: url(../images/bg-curve-desktop.svg);
+  background-size: cover;
+  width: 100vw;
+  height: 10rem;
+}
+
 .features__content-text {
   line-height: 1.5;
   font-size: 2rem;
@@ -41,6 +56,9 @@
   font-weight: bold;
 }
 @media (max-width: 900px) {
+  .features::after {
+    background-image: url(../images/bg-curve-mobile.svg);
+  }
   .features {
     flex-direction: column;
     text-align: center;
