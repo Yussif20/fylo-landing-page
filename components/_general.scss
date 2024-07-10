@@ -2,6 +2,7 @@ body {
   font-size: 1.6rem;
   color: var(--very-dark--blue);
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 h1,
 h2,
@@ -18,6 +19,31 @@ h3 {
 section {
   padding: 12rem 0;
 }
+.section-with-bg {
+  display: flex;
+  position: relative;
+  color: white;
+}
+.section-with-bg::before {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  justify-self: center;
+  z-index: -1;
+}
+.contact-input {
+  padding: 1rem 3.2rem;
+  border: 1px solid black;
+  outline: none;
+  font-size: 1.6rem;
+}
+.contact-button {
+  background-color: var(--bright-blue);
+  color: white;
+  padding: 1rem 2rem;
+}
+
 @media (max-width: 767px) {
   html {
     font-size: 8px;
