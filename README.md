@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution link](https://www.frontendmentor.io/solutions/fylo-landing-page-8YR1y_8E9R)
-- Live Site URL: [Testimonials Grid section](https://yussif20.github.io/fylo-landing-page/)
+- Solution URL: [Solution link](https://www.frontendmentor.io/solutions/fylo-landing-page-Y-hJu0245O)
+- Live Site URL: [fylo landing page](https://yussif20.github.io/fylo-landing-page)
 
 ### Built with
 
@@ -44,4 +44,4 @@ It helped me alot in practicing what I learned so far in CSS and it working with
 - Website - [Yusif Ayman](https://yussif20.github.io/main-portfolio/)
 - linkedin - [Yusif Ayman](https://www.linkedin.com/in/yussif-ayman/)
 - Github - [Yusif Ayman](https://github.com/Yussif20)
-- Frontend Mentor - [testimonials-grid-solution](https://www.frontendmentor.io/profile/Yussif20)
+- Frontend Mentor - [Yusif ayman](https://www.frontendmentor.io/profile/Yussif20)
