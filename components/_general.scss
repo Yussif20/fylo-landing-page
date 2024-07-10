@@ -3,7 +3,6 @@ body {
   color: var(--very-dark--blue);
   font-family: "Open Sans", sans-serif;
 }
-
 .heading {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -11,4 +10,12 @@ body {
 .container {
   max-width: 90%;
   margin: 0 auto;
+}
+section {
+  padding: 12rem 0;
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 8px;
+  }
 }

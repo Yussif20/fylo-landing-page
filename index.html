@@ -18,6 +18,7 @@
   </head>
   <body>
     <div class="container">
+      <!-- Header Start  -->
       <header class="header">
         <div class="header-content">
           <div class="header__logo">
@@ -30,24 +31,33 @@
           </ul>
         </div>
       </header>
+      <!-- Header End  -->
       <article>
+        <!-- Hero Start  -->
         <section class="hero">
           <div class="hero__content">
-            <h1>All your files in one secure location, accessible anywhere.</h1>
-            <p>
+            <h1 class="hero__content-heading">
+              All your files in one secure location, accessible anywhere.
+            </h1>
+            <p class="hero__content-text">
               Fylo stores your most important files in one secure location.
               Access them wherever you need, share and collaborate with friends,
               family, and co-workers.
             </p>
-            <div class="hero__content-contact">
-              <input type="email" placeholder="Enter your email..." />
-              <button>Get started</button>
+            <div class="hero__content-inputs">
+              <input
+                class="hero__content-input"
+                type="email"
+                placeholder="Enter your email..."
+              />
+              <button class="hero__content-button">Get started</button>
             </div>
           </div>
           <div class="hero__image">
             <img src="images/illustration-1.svg" alt="" />
           </div>
         </section>
+        <!-- Hero End  -->
         <section class="features">
           <div class="features__content">
             <h2>Stay productive, wherever you are</h2>
@@ -75,8 +85,40 @@
             <img src="images/illustration-2.svg" alt="" />
           </div>
         </section>
+        <section class="contact">
+          <div class="contact__text">
+            <h3>Get early access today</h3>
+            <p>
+              It only takes a minute to sign up and our free starter tier is
+              extremely generous. If you have any questions, our support team
+              would be happy to help you.
+            </p>
+          </div>
+          <div class="contact__inputs">
+            <input type="email" placeholder="email@example.com" />
+            <button>Get Started For Free</button>
+          </div>
+        </section>
       </article>
       <footer>
+        <div class="footer__data">
+          <img src="images/logo.svg" alt="fylo logo" />
+          <div class="column">
+            <a> Phone: +1-543-123-4567</a>
+            <a>example@fylo.com</a>
+          </div>
+          <div class="column">
+            <a href="#">About Us</a>
+            <a href="#"> Press</a>
+            <a href="#"> Blog</a>
+          </div>
+          <div class="column">
+            <a href="#">Contact Us</a>
+            <a href="#"> Terms</a>
+            <a href="#"> Privacy</a>
+          </div>
+          <div class="footer__socials"></div>
+        </div>
         <p class="attribution">
           Challenge by
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
