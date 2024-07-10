@@ -27,7 +27,7 @@
   color: white;
   padding: 1rem 2rem;
 }
-@media (max-width: 876px) {
+@media (max-width: 900px) {
   .hero {
     flex-direction: column;
     text-align: center;
@@ -35,6 +35,10 @@
   .hero__image {
     width: 70%;
     order: -1;
+    margin-bottom: 3.6rem;
+  }
+  .hero__content-inputs {
+    margin-top: 4rem;
   }
 }
 @media (max-width: 600px) {
